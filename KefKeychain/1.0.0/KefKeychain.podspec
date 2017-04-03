@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
   # 1
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.name = "KefKeychain"
-  s.summary = "KefKeychain is a simple swift keychain wrapper"
+  s.name = "KefBytes_KeychainWrapper"
+  s.summary = "KefBytes_KeychainWrapper is a simple swift keychain wrapper"
   s.requires_arc = true
  
   # 2
@@ -17,17 +17,17 @@ Pod::Spec.new do |s|
   s.author = { "Kent Franks" => "Kent@kefbytes.com" }
  
   # 5 - Replace this URL with your own Github page's URL (from the address bar)
-  s.homepage = "https://github.com/kefbytes/KefKeychain"
+  s.homepage = "https://github.com/kefbytes/KefBytes_KeychainWrapper"
  
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
-  s.source = { :git => "https://github.com/kefbytes/KefKeychain.git", :tag => "#{s.version}"}
+  s.source = { :git => "https://github.com/kefbytes/KefBytes_KeychainWrapper.git", :tag => "#{s.version}"}
  
   # 7
   s.framework = "Foundation"
  
   # 8
-  s.source_files = "KefKeychain/**/*.{swift}"
+  s.source_files = "KeychainWrapper/**/*.{swift}"
  
   # 9
-  # s.resources = "KefKeychain/**/*.{png,jpeg,jpg,storyboard,xib}"
+  # s.resources = "KeychainWrapper/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
